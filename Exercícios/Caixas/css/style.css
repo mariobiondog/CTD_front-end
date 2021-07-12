@@ -1,0 +1,55 @@
+/* Reseter, essa sequência de comandos anula completamente o comportamento padrão do navegador */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Estilo aplicado para todas as divs */
+.elementExample {
+  width: 200px; /* aumenta a largura da div */
+  height: 200px; /* aumenta a altura da div */
+  background-color: red; /* da uma cor de fundo para a div */
+  line-height: 200px; /* ajusta a altura da linha de texto da div */
+  color: white; /* muda a cor de texto do texto da div */
+  text-transform: uppercase; /* deixa todo o texto da div em maiúsculo */
+  text-align: center; /* alinha o texto ao centro da div  */
+  cursor: pointer; /* modifica a visualização do mouse, deixando a mão do mickey*/
+}
+
+.element_first {
+  background-color: blue; /* da uma cor de fundo para a div */
+  position: absolute; /* deixa a div solta e  fora da sua área padrão */
+  right: 0; /* leva a div para a direita */
+}
+.element_second {
+  background-color: green; /* da uma cor de fundo para a div */
+  position: absolute; /* deixa a div solta e  fora da sua área padrão */
+  left: 50%; /* leva a div para a direita ocupando 50% da tela */
+  top: 50%; /* leva a div para baixo ocupando 50% da altura da tela */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* reduz a porcetagem das propriedades anteriormente referenciadas */
+}
+.element_last {
+  background-color: purple; /* da uma cor de fundo para a div */
+  position: absolute; /* deixa a div solta e  fora da sua área padrão */
+}
+
+.internal-example {
+  width: 100px; /* aumenta a largura da div */
+  height: 100px; /* aumenta a altura da div */
+  background-color: lightgray; /* da uma cor de fundo para a div */
+  line-height: 100px; /* ajusta a altura da linha de texto da div */
+  color: white; /* muda a cor de texto do texto da div */
+  text-transform: uppercase; /* deixa todo o texto da div em maiúsculo */
+  text-align: center; /* alinha o texto ao centro da div  */
+  cursor: pointer; /* modifica a visualização do mouse, deixando a mão do mickey*/
+  position: absolute; /* deixa a div solta e  fora da sua área padrão */
+  left: 50%; /* leva a div para a direita ocupando 50% da tela */
+  top: 50%; /* leva a div para baixo ocupando 50% da altura da tela */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* reduz a porcetagem das propriedades anteriormente referenciadas */
+}

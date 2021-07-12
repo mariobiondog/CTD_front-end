@@ -1,0 +1,52 @@
+/* ================================= 
+  Transições do ícone da câmera
+==================================== */
+
+.logo {
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.5); /* aumenta a escala tamanho em 1.5x */
+}
+
+/* ================================= 
+  Transições do Button
+==================================== */
+
+.button {
+  color: #fff;
+  background: #4a89ca;
+  /* 0.4 pro background, 0.5 pro border-radius, 0.7 pro transform; (a ordem importa) */
+  /* o ideal é colocar a transsition... sempre nas classes sem os pseudo-seletores */
+  transition-duration: 0.4s, 0.5s, 0.7s;
+  transition-property: background, border-radius, transform;
+}
+
+.button:hover {
+  background: #d36a62;
+  border-radius: 10px;
+  transform: rotate(180deg);
+}
+
+.button:active {
+  background: #a33830;
+  border-radius: 25px;
+}
+
+/* ================================= 
+  Transições da Foto
+==================================== */
+
+.photo-overlay {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 0.5s;
+  transform: rotate(90deg); /* começa em 90º */
+}
+
+.photo-overlay:hover {
+  opacity: 1;
+  transform: rotate(0deg); /* volta pra posição 0º */
+}

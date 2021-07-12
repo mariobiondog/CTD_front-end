@@ -1,0 +1,58 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background-color: rgba(78, 190, 34, 0.342);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: rgba(228, 206, 13, 0.733);
+  font-size: 55px;
+  margin: 5px;
+}
+
+h2 {
+  color: rgb(228, 206, 13);
+}
+
+p {
+  color: black;
+  font-size: 20px;
+}
+
+ul {
+  margin: 15px;
+  padding: 5px;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.line-space {
+  line-height: 50px;
+}
+
+#but-emergencia {
+  background-color: rgb(228, 206, 13);
+  float: right;
+  margin-right: 20px;
+}
+
+.abas {
+  color: black;
+  margin: 15px 15px 15px 2px;
+}
+
+div.caixa1 {
+  background-color: blue;
+  position: relative;
+  top: 10px;
+}
+
+div.caixa2 {
+  background-color: aqua;
+}
